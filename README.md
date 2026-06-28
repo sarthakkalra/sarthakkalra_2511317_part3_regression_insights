@@ -123,8 +123,6 @@ part3_regression_insights/
 │   ├── regression_workbook.xlsx           (8 sheets, live formulas)
 │   ├── model_comparison.md
 │   ├── residual_analysis.md
-│   ├── run_analysis.py                     (reproducible analysis)
-│   └── build_workbook.py
 ├── outputs/
 │   ├── model_equations.md
 │   ├── final_recommendation.md
@@ -143,6 +141,3 @@ part3_regression_insights/
 - `residuals_preview.png` — top positive/negative residuals + region pattern.
 - `model_comparison_preview.png` — model comparison summary.
 
----
-*Reproduce:* `python analysis/run_analysis.py` then `python analysis/build_workbook.py`.
-Requires pandas, numpy, statsmodels, scipy, matplotlib, openpyxl.
